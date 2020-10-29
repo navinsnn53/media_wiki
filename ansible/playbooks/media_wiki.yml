@@ -9,3 +9,4 @@
     - selinux_disable
   vars_files:
     - open_vars/dev.yml
+    - vault/dev-vault.yml
