@@ -1,0 +1,11 @@
+- name: delete anonymous MySQL server user for {{ ansible_nodename }}
+  mysql_user: login_user=root
+    login_password='password'
+    check_implicit_admin=yes
+    user=""
+    host={{ item }}
+    state="absent"
+  with_items:
+    - ""
+    - "{{ ansible_nodename }}"
+    - localhost
