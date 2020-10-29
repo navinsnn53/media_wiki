@@ -8,3 +8,4 @@
     - DB_setup
   vars_files:
     - open_vars/dev.yml
+    - vault/dev-vault.yml
