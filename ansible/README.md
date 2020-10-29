@@ -11,9 +11,12 @@
      
 ## Action items ##
 
-# copy your custom yaml configuration to the server, e.g. to /tmp/wiki.yml
+# Copy your custom yaml configuration to the server, e.g. to /tmp/wiki.yml
 # clone the repo
 sudo yum -y install git
+
 git clone https://github.com/navinsnn53/media_wiki.git
+
 cd media_wiki
+
 ansible-playbook media_wiki.yml --ask-vault-pass
