@@ -15,6 +15,12 @@
     - php-xcache
     - MySQL-python
 
+- name: restart mariadb
+  systemd: name=mariadb state=restarted
+
+- name: restart httpd
+  systemd: name=httpd state=restarted
+
 - name: Versions check for LAMP
   template: src=php.j2 dest=/var/www/html/info.php
   register: version
@@ -23,3 +29,4 @@
 
 - debug:
     msg: "Installation of dependencies complete"
+
