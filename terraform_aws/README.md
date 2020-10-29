@@ -6,4 +6,4 @@ terraform init
 
 terraform apply 
 
-## Note - keeping the backend in local not in backend#####
+## Note - keeping the backend statefile in local not in remote backend#####
