@@ -1,0 +1,7 @@
+---
+- name: MediaWiki Installation
+  hosts: localhost
+  gather_facts: no
+  roles:
+    - LAMP
+    - media_wiki
