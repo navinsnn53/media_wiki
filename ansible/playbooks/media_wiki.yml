@@ -6,5 +6,6 @@
     - LAMP
     - media_wiki
     - DB_setup
+    - selinux_disable
   vars_files:
     - open_vars/dev.yml
