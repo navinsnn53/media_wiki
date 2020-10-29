@@ -15,10 +15,10 @@
      - php-xcache
 
 - name: Versions check for LAMP
-  template: src=php.j2 dest=/var/www/html/
+  template: src=php.j2 dest=/var/www/html/info.php
   register: version
   notify:
     - restart httpd
 
 - debug:
-    msg: "{{ version.stdout }}"
+    msg: "{{ version }}"
