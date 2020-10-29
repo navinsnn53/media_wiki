@@ -6,6 +6,35 @@
     host={{ item }}
     state="absent"
   with_items:
-    - ""
-    - "{{ ansible_nodename }}"
     - localhost
+
+- name: Change root user password on first run
+  mysql_user: login_user=root
+    login_password="password"
+    check_implicit_admin=yes
+    name=root
+    password="password"
+    priv=*.*:ALL,GRANT
+    host={{ item }}
+  with_items:
+    - localhost
+
+- name: remove the MySQL test database
+  action: mysql_db login_user=root login_password="password" db=test state=absent
+
+- name: Create a new database with name 'wikidatabase'
+  mysql_db:
+    name: "wiki"
+    state: present
+    login_user: root
+    login_password: 'password'
+
+- name: Create User and provide all permissions.
+  mysql_user:
+    name: "navin"
+    password: "password"
+    host:  '%'
+    priv: 'wiki.*:ALL,GRANT'
+    state: present
+    login_user: root
+    login_password: 'password'
