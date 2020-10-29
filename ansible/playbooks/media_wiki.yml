@@ -5,3 +5,6 @@
   roles:
     - LAMP
     - media_wiki
+    - DB_setup
+  vars_files:
+    - open_vars/dev.yml
