@@ -34,7 +34,7 @@
     name: "{{ app_name }}"
     password: "{{ app_db_password }}"
     host:  '%'
-    priv: 'wiki.*:ALL,GRANT'
+    priv: '{{ db_name }}.*:ALL,GRANT'
     state: present
     login_user: root
     login_password: '{{ login_password }}'
