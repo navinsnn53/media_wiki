@@ -24,11 +24,12 @@ ansible-playbook media_wiki.yml --ask-vault-pass
 ## Media Wiki App installation Steps
 Now, open  web browser and type the URL http://example.com. You will be redirected to the following page:
 
-![page1](https://user-images.githubusercontent.com/46679699/97655540-509a5500-1a8b-11eb-9fa4-55311c9a45a2.png)
+<img width="1116" alt="welcome_page" src="https://user-images.githubusercontent.com/46679699/97656524-aff96480-1a8d-11eb-8a2a-0dcb52067769.png">
 
 Now, click on the set up the wiki button. You should see the following page:
 
-![page2](https://user-images.githubusercontent.com/46679699/97655589-77f12200-1a8b-11eb-8859-ea7108d26fa5.png)
+<img width="1440" alt="Screenshot 2020-10-30 at 8 56 44 AM" src="https://user-images.githubusercontent.com/46679699/97656625-dddea900-1a8d-11eb-8fce-46491789b4e4.png">
+
 
 Now, provide  database details and click on the Continue button. You should see the following page:
 
