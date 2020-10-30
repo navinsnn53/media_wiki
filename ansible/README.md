@@ -35,9 +35,10 @@ Now, provide  database details and click on the Continue button. You should see 
 
 <img width="1440" alt="Screenshot 2020-10-30 at 8 41 19 AM" src="https://user-images.githubusercontent.com/46679699/97655844-ff3e9580-1a8b-11eb-9a32-d0106312d16e.png">
 
-Now, open  web browser and type the URL http://example.com. You should see MediaWiki site in the following image:
+Now, open  web browser and type the URL of your instance. You should see MediaWiki site in the following image for successful db:
 
-![page](https://user-images.githubusercontent.com/46679699/97656234-fe5a3380-1a8c-11eb-8ba5-79f02bdd10e8.png)
+<img width="1440" alt="Screenshot 2020-10-30 at 9 06 35 AM" src="https://user-images.githubusercontent.com/46679699/97657194-42e6ce80-1a8f-11eb-8704-5d48ee9a48d1.png">
+
 
 
 
