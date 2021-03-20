@@ -37,7 +37,8 @@ Now, provide  database details and click on the Continue button. You should see 
 
 Now, open  web browser and type the URL of your instance. You should see MediaWiki site in the following image for successful db:
 
-<img width="1440" alt="Screenshot 2020-10-30 at 9 06 35 AM" src="https://user-images.githubusercontent.com/46679699/97657194-42e6ce80-1a8f-11eb-8704-5d48ee9a48d1.png">
+<img width="1242" alt="Screenshot 2021-03-20 at 4 28 16 PM" src="https://user-images.githubusercontent.com/46679699/111867340-4ffe4e80-8999-11eb-816a-8a60d6f295e4.png">
+<img width="1240" alt="Screenshot 2021-03-20 at 4 28 22 PM" src="https://user-images.githubusercontent.com/46679699/111867343-5391d580-8999-11eb-80ac-365f446ad95f.png">
 
 
 
